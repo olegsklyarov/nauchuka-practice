@@ -11,3 +11,4 @@ $ npm run watch
 
 1. [Quadrants](src/quadrants/index.md)
 1. [Factorial](src/factorial/index.md)
+1. [Fibonacci](src/fibonacci/index.md)
