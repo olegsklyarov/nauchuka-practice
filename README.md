@@ -6,3 +6,7 @@
 $ npm install
 $ npm run watch
 ```
+
+### Список задач
+
+1. [Quadrants](src/quadrants/index.md)
