@@ -10,3 +10,4 @@ $ npm run watch
 ### Список задач
 
 1. [Quadrants](src/quadrants/index.md)
+1. [Factorial](src/factorial/index.md)
