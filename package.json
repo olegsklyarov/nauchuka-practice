@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Java Script practice problems with unit tests",
   "scripts": {
-    "watch": "parcel src/index.html --open",
+    "watch": "parcel src/*.html --open",
     "eslint": "eslint src"
   },
   "keywords": [
