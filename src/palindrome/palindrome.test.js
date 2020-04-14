@@ -2,21 +2,42 @@
 
 describe(`Задача Palindrome`, () => {
   const testCases = [
-    { string: `ABBA`, isPalindrome: true },
-    { string: `топот`, isPalindrome: true },
-    { string: `Nauchuka`, isPalindrome: false },
-    { string: `Saippuakivikauppias`, isPalindrome: true },
-    { string: `а роза упала на лапу Азора`, isPalindrome: true },
-    { string: `Палиндром`, isPalindrome: false },
-    { string: `Аргентина манит негра`, isPalindrome: true },
-    { string: `12345678987654321`, isPalindrome: true },
-    { string: `2020`, isPalindrome: false },
+    {
+      input: `ABBA`,
+      output: true,
+    },
+    {
+      input: `топот`,
+      output: true,
+    },
+    {
+      input: `Nauchuka`,
+      output: false,
+    },
+    {
+      input: `Saippuakivikauppias`,
+      output: true,
+    },
+    {
+      input: `а роза упала на лапу Азора`,
+      output: true,
+    },
+    {
+      input: `Палиндром`,
+      output: false,
+    },
+    {
+      input: `Аргентина манит негра`,
+      output: true,
+    },
+    {
+      input: `12345678987654321`,
+      output: true,
+    },
+    {
+      input: `2020`,
+      output: false,
+    },
   ];
-  for (const testCase of testCases) {
-    const expectedResult = testCase.isPalindrome;
-    const actualResult = window.palindrome(testCase.string);
-    const description = `${testCase.string} - ${testCase.isPalindrome ? `` : `не `}палиндром`;
-    it(description,
-      () => chai.assert.equal(actualResult, expectedResult, description));
-  }
+  window.tester(testCases, window.palindrome, `Palindrome`);
 });

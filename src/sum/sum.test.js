@@ -2,16 +2,22 @@
 
 describe('Задача Sum', () => {
   const testCases = [
-    { a: 5, b: 7, s: 12 },
-    { a: -1, b: 1, s: 0 },
-    { a: 0, b: 0, s: 0 },
-    { a: 23234515, b: 3454132, s: 26688647 },
+    {
+      input: { a: 5, b: 7 },
+      output: 12,
+    },
+    {
+      input: { a: -1, b: 1 },
+      output: 0,
+    },
+    {
+      input: { a: 0, b: 0 },
+      output: 0,
+    },
+    {
+      input: { a: 23234515, b: 3454132 },
+      output: 26688647,
+    },
   ];
-  for (const testCase of testCases) {
-    const expectedResult = testCase.s;
-    const actualResult = sum(testCase.a, testCase.b);
-    const description = `${testCase.a} + ${testCase.b} = ${expectedResult}`;
-    it(description,
-      () => chai.assert.equal(actualResult, expectedResult, description));
-  }
+  window.tester(testCases, window.sum, `Sum`);
 });

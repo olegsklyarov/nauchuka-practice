@@ -1,35 +1,31 @@
 'use strict';
 
 describe('Задача Factorial', () => {
-  // https://oeis.org/A000142
-  const A000142 = [
-    1,
-    1,
-    2,
-    6,
-    24,
-    120,
-    720,
-    5040,
-    40320,
-    362880,
-    3628800,
-    39916800,
-    479001600,
-    6227020800,
-    87178291200,
-    1307674368000,
-    20922789888000,
-    355687428096000,
-    6402373705728000,
-    121645100408832000,
-    2432902008176640000,
+  const testCases = [
+    {
+      input: 0,
+      output: 1,
+    },
+    {
+      input: 1,
+      output: 1,
+    },
+    {
+      input: 2,
+      output: 2,
+    },
+    {
+      input: 3,
+      output: 6,
+    },
+    {
+      input: 5,
+      output: 120,
+    },
+    {
+      input: 18,
+      output: 6402373705728000,
+    },
   ];
-  for (let n = 0; n < A000142.length; n++) {
-    const expectedResult = A000142[n];
-    const actualResult = window.factorial(n);
-    const description = `${n}! = ${expectedResult}`;
-    it(description,
-      () => chai.assert.equal(actualResult, expectedResult, description));
-  }
+  window.tester(testCases, window.factorial, `factorial`);
 });
