@@ -14,7 +14,7 @@ describe(`Задача Palindrome`, () => {
   ];
   for (const testCase of testCases) {
     const expectedResult = testCase.isPalindrome;
-    const actualResult = palindrome(testCase.string);
+    const actualResult = window.palindrome(testCase.string);
     const description = `${testCase.string} - ${testCase.isPalindrome ? `` : `не `}палиндром`;
     it(description,
       () => chai.assert.equal(actualResult, expectedResult, description));
