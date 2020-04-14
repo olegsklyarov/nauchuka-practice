@@ -33,4 +33,5 @@ $ npm run eslint
 1. [Min Max Diff](src/min-max-diff/index.md)
 1. [Even](src/even/index.md)
 1. [Sort](src/sort/index.md)
-1. [Search Needle](src/search-needle/index.md) 
+1. [Search Needle](src/search-needle/index.md)
+1. [Map Coordinates](src/map-coordinates/index.md) 
