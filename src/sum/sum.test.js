@@ -19,5 +19,5 @@ describe('Задача Sum', () => {
       output: 26688647,
     },
   ];
-  window.tester(testCases, window.sum, `Sum`);
+  window.tester(testCases, window.sum, 'Sum');
 });

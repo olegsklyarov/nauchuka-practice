@@ -23,5 +23,5 @@ describe('Задача Digits', () => {
       output: 16,
     },
   ];
-  window.tester(testCases, window.digits, `Digits`);
+  window.tester(testCases, window.digits, 'Digits');
 });

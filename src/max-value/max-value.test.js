@@ -1,6 +1,6 @@
 'use strict';
 
-describe(`Задача Max Value`, () => {
+describe('Задача Max Value', () => {
   const testCases = [
     {
       input: [0, 8, 1, 1, 5, 13, 2, 3],
@@ -23,9 +23,11 @@ describe(`Задача Max Value`, () => {
       output: 100,
     },
     {
-      input:[929, 7749, 9197, 7823, -3317, -9690, -5158, 8378, -6384, 513, 8031, 1468, 5589, -1466],
+      input: [
+        929, 7749, 9197, 7823, -3317, -9690, -5158, 8378, -6384, 513, 8031, 1468, 5589, -1466,
+      ],
       output: 9197,
     },
   ];
-  window.tester(testCases, window.maxValue, `MaxValue`);
+  window.tester(testCases, window.maxValue, 'MaxValue');
 });

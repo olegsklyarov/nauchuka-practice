@@ -41,8 +41,8 @@ describe('Задача Fibonacci', () => {
     },
     {
       input: 60,
-      output: 1548008755920
-    }
+      output: 1548008755920,
+    },
   ];
-  window.tester(testCases, window.fibonacci, `Fibonacci`);
+  window.tester(testCases, window.fibonacci, 'Fibonacci');
 });

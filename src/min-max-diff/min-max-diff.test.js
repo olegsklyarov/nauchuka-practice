@@ -1,6 +1,6 @@
 'use strict';
 
-describe(`Задача Min Max Diff`, () => {
+describe('Задача Min Max Diff', () => {
   const testCases = [
     {
       input: [2020, 1945],
@@ -27,5 +27,5 @@ describe(`Задача Min Max Diff`, () => {
       output: 100,
     },
   ];
-  window.tester(testCases, window.minMaxDiff, `MinMaxDiff`);
+  window.tester(testCases, window.minMaxDiff, 'MinMaxDiff');
 });

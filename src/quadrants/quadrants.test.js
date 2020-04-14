@@ -39,5 +39,5 @@ describe('Задача Quadrants', () => {
       output: 0,
     },
   ];
-  window.tester(testCases, window.quadrants, `Quadrants`);
+  window.tester(testCases, window.quadrants, 'Quadrants');
 });

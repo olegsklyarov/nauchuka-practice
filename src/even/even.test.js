@@ -1,6 +1,6 @@
 'use strict';
 
-describe(`Задача Even`, () => {
+describe('Задача Even', () => {
   const testCases = [
     {
       input: [0, 8, 1, 1, 5, 13, 2, 3],
@@ -19,5 +19,5 @@ describe(`Задача Even`, () => {
       output: 9,
     },
   ];
-  window.tester(testCases, window.even, `Even`);
+  window.tester(testCases, window.even, 'Even');
 });

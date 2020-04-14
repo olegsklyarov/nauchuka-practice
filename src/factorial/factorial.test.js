@@ -27,5 +27,5 @@ describe('Задача Factorial', () => {
       output: 6402373705728000,
     },
   ];
-  window.tester(testCases, window.factorial, `Factorial`);
+  window.tester(testCases, window.factorial, 'Factorial');
 });

@@ -21,7 +21,17 @@
     "no-plusplus": "off"
   },
   "ignorePatterns": [
-    "*.test.js",
     "*.html"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.test.js",
+        "tester.js"
+      ],
+      "rules": {
+        "no-undef": "off"
+      }
+    }
   ]
 }
