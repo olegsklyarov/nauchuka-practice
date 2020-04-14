@@ -27,5 +27,5 @@ describe(`Задача Max Value`, () => {
       output: 9197,
     },
   ];
-  window.tester(testCases, window.maxValue, `maxValue`);
+  window.tester(testCases, window.maxValue, `MaxValue`);
 });
