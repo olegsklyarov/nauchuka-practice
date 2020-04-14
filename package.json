@@ -1,14 +1,19 @@
 {
-  "name": "parcel-template",
+  "name": "nauchuka-practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "Java Script practice problems with unit tests",
   "scripts": {
     "watch": "parcel src/index.html --open",
     "eslint": "eslint src"
   },
-  "keywords": [],
+  "keywords": [
+    "java script",
+    "learn",
+    "alhorithms"
+  ],
   "author": "Oleg Sklyarov <oleg.sklyarov@gmail.com>",
   "license": "ISC",
+  "repository": "https://github.com/olegsklyarov/nauchuka-practice",
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
