@@ -11,8 +11,11 @@
 <script src="https://unpkg.com/chai/chai.js"></script>
 <script src="https://unpkg.com/mocha/mocha.js"></script>
 <script class="mocha-init">
-  mocha.setup('bdd');
-  mocha.checkLeaks();
+  mocha.setup({
+    timeout: 1000,
+    ui: 'bdd',
+    checkLeaks: true,
+  });
 </script>
 <script type="text/javascript" src="util/tester.js"></script>
 <script type="text/javascript" src="sum/sum.js"></script>
