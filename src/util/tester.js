@@ -1,19 +1,26 @@
 'use strict';
 
 window.tester = (testCases, solver, solverName) => {
+  const MAX_LENGTH = 50;
+
+  const formatValue = (value) => {
+    const string = typeof value === 'object'
+      ? JSON.stringify(value)
+      : `${value}`;
+
+    return string.length > MAX_LENGTH
+      ? `${string.slice(0, MAX_LENGTH)}... (length = ${string.length})`
+      : string;
+  };
+
   testCases.forEach((testCase) => {
+    const argumentDescription = formatValue(testCase.input);
+    const expectedResultDescription = formatValue(testCase.output);
+    const description = `${solverName}(${argumentDescription}) = ${expectedResultDescription}`;
     const expectedResult = testCase.output;
-    const actualResult = solver(testCase.input);
-    const argumentDescription = typeof testCase.input === 'object'
-      ? JSON.stringify(testCase.input)
-      : testCase.input;
-
-    const expectedResultDescriptoion = typeof testCase.output === 'object'
-      ? JSON.stringify(testCase.output)
-      : testCase.output;
-
-    const description = `${solverName}(${argumentDescription}) = ${expectedResultDescriptoion}`;
-    it(description,
-      () => chai.assert.deepEqual(actualResult, expectedResult, description));
+    it(description, (done) => {
+      const actualResult = solver(testCase.input);
+      done(chai.assert.deepEqual(actualResult, expectedResult, description));
+    });
   });
 };
