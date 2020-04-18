@@ -36,3 +36,7 @@ $ npm run eslint
 1. [Search Needle](src/search-needle/index.md)
 1. [Map Coordinates](src/map-coordinates/index.md)
 1. [Digits Reverse](src/digits-reverse/index.md) 
+
+### Задачи (часть 3)
+
+1. [Single Letter](src/single-letter/index.md)
