@@ -40,3 +40,4 @@ $ npm run eslint
 ### Задачи (часть 3)
 
 1. [Single Letter](src/single-letter/index.md)
+1. [Aim](src/aim/index.md)
