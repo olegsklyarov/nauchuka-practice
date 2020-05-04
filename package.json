@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Java Script practice problems with unit tests",
   "scripts": {
-    "watch": "parcel src/*.html --open",
-    "eslint": "eslint src"
+    "lint": "eslint src",
+    "lint-fix": "eslint src --fix",
+    "test": "mocha --reporter dot src/**/*.test.js --require @babel/register"
   },
   "keywords": [
     "java script",
@@ -15,9 +16,14 @@
   "license": "ISC",
   "repository": "https://github.com/olegsklyarov/nauchuka-practice",
   "devDependencies": {
+    "@babel/core": "7.9.6",
+    "@babel/node": "7.8.7",
+    "@babel/preset-env": "7.9.6",
+    "@babel/register": "7.9.0",
+    "chai": "4.2.0",
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
     "eslint-plugin-import": "2.20.2",
-    "parcel-bundler": "1.12.4"
+    "mocha": "7.1.2"
   }
 }
