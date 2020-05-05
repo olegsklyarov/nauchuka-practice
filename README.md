@@ -1,33 +1,29 @@
 # Практические задачи по программированию c тестами
 
-
 ### Запуск
 
-Установить заисимости
+Установить зависимости
 ```
 $ npm install
 ```
 
-Запустить тесты 
+Прогнать тесты 
 ```
-$ npm run watch
+$ npm run test
 ```
 
 Проверить код на ошибки
 ```
-$ npm run eslint 
+$ npm run lint 
 ```
 
-### Задачи (часть 1)
+### Задачи
 
 1. [Sum](src/sum/index.md) (с решением)
 1. [Quadrants](src/quadrants/index.md)
 1. [Factorial](src/factorial/index.md)
 1. [Fibonacci](src/fibonacci/index.md)
 1. [Digits](src/digits/index.md)
-
-### Задачи (часть 2)
-
 1. [Palindrome](src/palindrome/index.md)
 1. [Max Value](src/max-value/index.md)
 1. [Min Max Diff](src/min-max-diff/index.md)
@@ -36,8 +32,5 @@ $ npm run eslint
 1. [Search Needle](src/search-needle/index.md)
 1. [Map Coordinates](src/map-coordinates/index.md)
 1. [Digits Reverse](src/digits-reverse/index.md) 
-
-### Задачи (часть 3)
-
 1. [Single Letter](src/single-letter/index.md)
 1. [Aim](src/aim/index.md)
