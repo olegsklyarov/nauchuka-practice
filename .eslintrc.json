@@ -8,7 +8,7 @@
   ],
   "parserOptions": {
     "ecmaVersion": 2018,
-    "sourceType": "script",
+    "sourceType": "module",
     "ecmaFeatures": {
       "modules": false
     }
@@ -20,17 +20,14 @@
     ],
     "no-plusplus": "off"
   },
-  "ignorePatterns": [
-    "*.html"
-  ],
   "overrides": [
     {
       "files": [
-        "*.test.js",
         "tester.js"
       ],
       "rules": {
-        "no-undef": "off"
+        "no-undef": "off",
+        "import/no-extraneous-dependencies": "off"
       }
     }
   ]

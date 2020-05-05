@@ -1,7 +1,3 @@
-'use strict';
-
-window.palindrome = (string) => {
-  const dummyResult = !!string;
-
-  return dummyResult;
-};
+export default function (string) {
+  return !!string;
+}

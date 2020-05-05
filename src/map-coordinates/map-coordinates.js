@@ -1,7 +1,3 @@
-'use strict';
-
-window.mapCoordinates = ([X, Y, originX, originY]) => {
-  const dummyResult = [X * originY, Y * originX];
-
-  return dummyResult;
-};
+export default function ([X, Y, originX, originY]) {
+  return [X * originX, Y * originY];
+}

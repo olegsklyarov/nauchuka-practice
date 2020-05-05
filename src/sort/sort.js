@@ -1,7 +1,3 @@
-'use strict';
-
-window.sort = (array) => {
-  const dummyResult = array.concat();
-
-  return dummyResult;
-};
+export default function (array) {
+  return array;
+}

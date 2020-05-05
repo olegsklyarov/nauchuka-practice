@@ -1,7 +1,3 @@
-'use strict';
-
-window.digitsReverse = (n) => {
-  const dummyResult = n;
-
-  return dummyResult;
-};
+export default function (number) {
+  return number;
+}
