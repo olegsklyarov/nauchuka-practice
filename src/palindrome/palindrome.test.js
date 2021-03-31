@@ -39,4 +39,4 @@ const testCases = [
     output: false,
   },
 ];
-tester(testCases, palindrome, 'Palindrome', true);
+tester(testCases, palindrome, 'Palindrome');

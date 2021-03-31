@@ -27,4 +27,4 @@ const testCases = [
     output: 6402373705728000,
   },
 ];
-tester(testCases, factorial, 'Factorial', true);
+tester(testCases, factorial, 'Factorial');

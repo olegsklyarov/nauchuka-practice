@@ -49,4 +49,4 @@ const testCases = [
       93284],
   },
 ];
-tester(testCases, sort, 'Sort', true);
+tester(testCases, sort, 'Sort');

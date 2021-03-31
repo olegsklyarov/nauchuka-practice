@@ -42,4 +42,4 @@ const testCases = [
     output: 9197,
   },
 ];
-tester(testCases, maxValue, 'MaxValue', true);
+tester(testCases, maxValue, 'MaxValue');
