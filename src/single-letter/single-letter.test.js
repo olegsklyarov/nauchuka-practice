@@ -30,12 +30,12 @@ const testCases = [
     output: undefined,
   },
   {
-    input: `${genUniqueCharSequence('A').repeat(1000)}A`,
+    input: `${genUniqueCharSequence('A').repeat(100)}A`,
     output: 'A',
   },
   {
-    input: `${genUniqueCharSequence().repeat(1000)}`,
+    input: `${genUniqueCharSequence().repeat(100)}`,
     output: undefined,
   },
 ];
-tester(testCases, singleLetter, 'SingleLetter', true);
+tester(testCases, singleLetter, 'SingleLetter');

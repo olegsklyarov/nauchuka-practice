@@ -35,4 +35,4 @@ const testCases = [
     output: 1990474529917009,
   },
 ];
-tester(testCases, digitsReverse, 'DigitsReverse', true);
+tester(testCases, digitsReverse, 'DigitsReverse');
