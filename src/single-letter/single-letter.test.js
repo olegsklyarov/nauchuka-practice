@@ -30,11 +30,11 @@ const testCases = [
     output: undefined,
   },
   {
-    input: `${genUniqueCharSequence('A').repeat(100)}A`,
+    input: `${genUniqueCharSequence('A').repeat(1000)}A`,
     output: 'A',
   },
   {
-    input: `${genUniqueCharSequence().repeat(100)}`,
+    input: `${genUniqueCharSequence().repeat(1000)}`,
     output: undefined,
   },
 ];

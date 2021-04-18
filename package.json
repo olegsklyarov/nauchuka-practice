@@ -5,7 +5,7 @@
   "scripts": {
     "lint": "eslint src",
     "lint-fix": "eslint src --fix",
-    "test": "mocha --reporter dot src/**/*.test.js --require @babel/register"
+    "test": "mocha --timeout 100000 --reporter dot src/**/*.test.js --require @babel/register"
   },
   "keywords": [
     "java script",
