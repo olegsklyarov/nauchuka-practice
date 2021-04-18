@@ -76,4 +76,4 @@ t(2.11, 1.53, 8);
 t(0.94, 1.50, 9);
 t(0.61, 0.70, 10);
 
-tester(testCases, aim, 'Aim', true);
+tester(testCases, aim, 'Aim');

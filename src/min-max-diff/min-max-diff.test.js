@@ -27,4 +27,4 @@ const testCases = [
     output: 100,
   },
 ];
-tester(testCases, minMaxDiff, 'MinMaxDiff', true);
+tester(testCases, minMaxDiff, 'MinMaxDiff');

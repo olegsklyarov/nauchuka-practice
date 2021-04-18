@@ -32,4 +32,4 @@ const testCases = [
     output: 0,
   },
 ];
-tester(testCases, searchNeedle, 'SearchNeedle', true);
+tester(testCases, searchNeedle, 'SearchNeedle');

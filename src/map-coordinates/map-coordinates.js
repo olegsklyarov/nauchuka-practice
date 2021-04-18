@@ -1,3 +1,4 @@
-export default function ([X, Y, originX, originY]) {
-  return [X * originX, Y * originY];
+export default function getPointCoordinats([X, Y, originX, originY]) {
+  return [X - originX,originY - Y];
 }
+

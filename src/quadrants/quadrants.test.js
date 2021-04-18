@@ -39,4 +39,4 @@ const testCases = [
     output: 0,
   },
 ];
-tester(testCases, quadrants, 'Quadrants', true);
+tester(testCases, quadrants, 'Quadrant');

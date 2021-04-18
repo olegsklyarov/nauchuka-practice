@@ -23,4 +23,4 @@ const testCases = [
     output: [0, 0],
   },
 ];
-tester(testCases, mapCoordinates, 'MapCoordinates', true);
+tester(testCases, mapCoordinates, 'MapCoordinates');

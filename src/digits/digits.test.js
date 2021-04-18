@@ -23,4 +23,4 @@ const testCases = [
     output: 16,
   },
 ];
-tester(testCases, digits, 'Digits', true);
+tester(testCases, digits, 'Digits');

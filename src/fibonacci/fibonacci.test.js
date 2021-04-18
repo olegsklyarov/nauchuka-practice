@@ -44,4 +44,4 @@ const testCases = [
     output: 1548008755920,
   },
 ];
-tester(testCases, fibonacci, 'Fibonacci', true);
+tester(testCases, fibonacci, 'Fibonacci' );
