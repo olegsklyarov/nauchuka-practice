@@ -4,6 +4,13 @@ import merge from './merge.js';
 const testCases = [
   {
     input: {
+      a: [1, 5, 10],
+      b: [3, 7, 9],
+    },
+    output: [1, 3, 5, 7, 9, 10],
+  },
+  {
+    input: {
       a: [],
       b: [],
     },
@@ -73,4 +80,4 @@ const testCases = [
     output: [1, 2, 3, 4, 9, 10],
   },
 ];
-tester(testCases, merge, 'Merge', true);
+tester(testCases, merge, 'Merge');
