@@ -1,5 +1,5 @@
-import tester from '../util/tester';
-import digits from './digits';
+import tester from '../util/tester.js';
+import digits from './digits.js';
 
 const testCases = [
   {

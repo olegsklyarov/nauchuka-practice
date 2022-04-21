@@ -1,5 +1,5 @@
-import tester from '../util/tester';
-import sort from './sort';
+import tester from '../util/tester.js';
+import sort from './sort.js';
 
 const testCases = [
   {

@@ -1,5 +1,5 @@
-import tester from '../util/tester';
-import searchNeedle from './search-needle';
+import tester from '../util/tester.js';
+import searchNeedle from './search-needle.js';
 
 const weekDays = [
   'Воскресенье',

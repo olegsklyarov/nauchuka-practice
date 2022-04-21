@@ -1,5 +1,5 @@
-import tester from '../util/tester';
-import even from './even';
+import tester from '../util/tester.js';
+import even from './even.js';
 
 const testCases = [
   {

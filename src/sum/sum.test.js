@@ -1,5 +1,5 @@
-import tester from '../util/tester';
-import sum from './sum';
+import tester from '../util/tester.js';
+import sum from './sum.js';
 
 const testCases = [
   {

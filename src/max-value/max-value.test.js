@@ -1,5 +1,5 @@
-import tester from '../util/tester';
-import maxValue from './max-value';
+import tester from '../util/tester.js';
+import maxValue from './max-value.js';
 
 const testCases = [
   {

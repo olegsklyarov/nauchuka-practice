@@ -1,5 +1,5 @@
-import tester from '../util/tester';
-import merge from './merge';
+import tester from '../util/tester.js';
+import merge from './merge.js';
 
 const testCases = [
   {
@@ -73,4 +73,4 @@ const testCases = [
     output: [1, 2, 3, 4, 9, 10],
   },
 ];
-tester(testCases, merge, 'Merge');
+tester(testCases, merge, 'Merge', true);

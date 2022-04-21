@@ -1,5 +1,14 @@
 # Практические задачи по программированию c тестами
 
+Для работы нужно установить [Node.js](https://nodejs.org/), рекомендуемые версии не ниже:
+```
+$ node -v
+v14.18.2
+
+$ npm -v
+8.5.4
+```
+
 ### Запуск
 
 Установить зависимости
@@ -7,14 +16,14 @@
 $ npm install
 ```
 
-Прогнать тесты 
+Прогнать тесты
 ```
 $ npm run test
 ```
 
 Проверить код на ошибки
 ```
-$ npm run lint 
+$ npm run lint
 ```
 
 ### Задачи
@@ -31,6 +40,7 @@ $ npm run lint
 1. [Sort](src/sort/index.md)
 1. [Search Needle](src/search-needle/index.md)
 1. [Map Coordinates](src/map-coordinates/index.md)
-1. [Digits Reverse](src/digits-reverse/index.md) 
+1. [Digits Reverse](src/digits-reverse/index.md)
 1. [Single Letter](src/single-letter/index.md)
 1. [Aim](src/aim/index.md)
+1. [Merge](src/merge/index.md)
