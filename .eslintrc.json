@@ -19,7 +19,8 @@
       "global"
     ],
     "no-plusplus": "off",
-    "func-names": "off"
+    "func-names": "off",
+    "import/extensions": "off"
   },
   "overrides": [
     {

@@ -80,4 +80,4 @@ const testCases = [
     output: [1, 2, 3, 4, 9, 10],
   },
 ];
-tester(testCases, merge, 'Merge');
+tester(testCases, merge, 'Merge', true);
