@@ -1,5 +1,5 @@
-import tester from '../util/tester';
-import aim from './aim';
+import tester from '../util/tester.js';
+import aim from './aim.js';
 
 const testCases = [];
 

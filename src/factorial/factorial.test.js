@@ -1,5 +1,5 @@
-import tester from '../util/tester';
-import factorial from './factorial';
+import tester from '../util/tester.js';
+import factorial from './factorial.js';
 
 const testCases = [
   {

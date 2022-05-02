@@ -1,6 +1,6 @@
 // https://oeis.org/A000045
-import tester from '../util/tester';
-import fibonacci from './fibonacci';
+import tester from '../util/tester.js';
+import fibonacci from './fibonacci.js';
 
 const testCases = [
   {

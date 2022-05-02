@@ -1,5 +1,5 @@
-import tester from '../util/tester';
-import palindrome from './palindrome';
+import tester from '../util/tester.js';
+import palindrome from './palindrome.js';
 
 const testCases = [
   {

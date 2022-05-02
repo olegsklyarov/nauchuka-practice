@@ -1,5 +1,5 @@
-import tester from '../util/tester';
-import minMaxDiff from './min-max-diff';
+import tester from '../util/tester.js';
+import minMaxDiff from './min-max-diff.js';
 
 const testCases = [
   {

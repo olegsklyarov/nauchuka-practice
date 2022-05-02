@@ -1,5 +1,5 @@
-import tester from '../util/tester';
-import singleLetter from './single-letter';
+import tester from '../util/tester.js';
+import singleLetter from './single-letter.js';
 
 const genUniqueCharSequence = (exceptChar) => {
   let result = '';

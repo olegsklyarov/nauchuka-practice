@@ -1,5 +1,5 @@
-import tester from '../util/tester';
-import mapCoordinates from './map-coordinates';
+import tester from '../util/tester.js';
+import mapCoordinates from './map-coordinates.js';
 
 const testCases = [
   {

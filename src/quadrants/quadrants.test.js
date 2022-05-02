@@ -1,5 +1,5 @@
-import tester from '../util/tester';
-import quadrants from './quadrants';
+import tester from '../util/tester.js';
+import quadrants from './quadrants.js';
 
 const testCases = [
   {
