@@ -1,3 +1,3 @@
 export default function (array) {
-  return array.length;
+  return array.filter((number) => number % 2 === 0).length;
 }
