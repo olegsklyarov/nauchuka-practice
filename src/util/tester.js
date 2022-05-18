@@ -1,6 +1,12 @@
 import chai from 'chai';
+import chaiDeepCloseTo from 'chai-deep-closeto';
+
+chai.use(chaiDeepCloseTo);
 
 const MAX_LENGTH = 50;
+const EPS = 1e-4;
+
+export const OUTPUT_TYPE_FLOAT_ARRAY = 'output-type-float-array';
 
 const formatValue = (value) => {
   const string = typeof value === 'object'
@@ -27,7 +33,11 @@ export default function (testCases, solver, solverName, isSkip = false) {
       const expectedResult = testCase.output;
       it(description, (done) => {
         const actualResult = solver(testCase.input);
-        done(chai.assert.deepEqual(actualResult, expectedResult, description));
+        if (testCase.outputType === OUTPUT_TYPE_FLOAT_ARRAY) {
+          chai.expect(actualResult).to.be.deep.closeTo(expectedResult, EPS);
+          return done();
+        }
+        return done(chai.assert.deepEqual(actualResult, expectedResult, description));
       });
     });
   });

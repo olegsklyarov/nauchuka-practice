@@ -44,3 +44,4 @@ $ npm run lint
 1. [Single Letter](src/single-letter/index.md)
 1. [Aim](src/aim/index.md)
 1. [Merge](src/merge/index.md)
+1. [Quadratic Equation](src/quadratic-equation/index.md)
