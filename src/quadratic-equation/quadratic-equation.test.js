@@ -25,5 +25,29 @@ const testCases = [
     output: [-3.40512, 4.40512],
     outputType: OUTPUT_TYPE_FLOAT_ARRAY,
   },
+  {
+    input: { a: 3.1415, b: 0, c: 0 },
+    output: [0],
+    outputType: OUTPUT_TYPE_FLOAT_ARRAY,
+  },
+  {
+    input: { a: 1, b: 0, c: -10 },
+    output: [-3.1622, 3.1622],
+    outputType: OUTPUT_TYPE_FLOAT_ARRAY,
+  },
+  {
+    input: { a: 0.45, b: 0, c: 0.5 },
+    output: 'No solution',
+  },
+  {
+    input: { a: 1, b: 3, c: 0 },
+    output: [-3, 0],
+    outputType: OUTPUT_TYPE_FLOAT_ARRAY,
+  },
+  {
+    input: { a: -1, b: 3, c: 0 },
+    output: [0, 3],
+    outputType: OUTPUT_TYPE_FLOAT_ARRAY,
+  },
 ];
 tester(testCases, quadraticEquation, 'Quadratic Equation', true);
