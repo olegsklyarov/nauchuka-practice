@@ -50,4 +50,4 @@ const testCases = [
     outputType: OUTPUT_TYPE_FLOAT_ARRAY,
   },
 ];
-tester(testCases, quadraticEquation, 'Quadratic Equation');
+tester(testCases, quadraticEquation, 'Quadratic Equation', true);
