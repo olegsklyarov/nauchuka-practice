@@ -1,7 +1,7 @@
 import { mkdirSync, openSync, closeSync } from 'fs';
 
 if (process.argv.length !== 3) {
-  process.stdout.write('Usage: npm run new-task <taskName>');
+  process.stdout.write('Usage: npm run generate-new-task <taskName>');
   process.exit(1);
 }
 
