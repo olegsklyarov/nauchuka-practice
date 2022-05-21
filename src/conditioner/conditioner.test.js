@@ -19,4 +19,4 @@ const testCases = [
     output: 'on',
   },
 ];
-tester(testCases, conditioner, 'Conditioner');
+tester(testCases, conditioner, 'Conditioner', true);
