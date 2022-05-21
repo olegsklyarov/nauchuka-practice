@@ -15,4 +15,4 @@ const testCases = [
     output: 'Равны',
   },
 ];
-tester(testCases, maxOfTwo, 'MaxOfTwo');
+tester(testCases, maxOfTwo, 'MaxOfTwo', true);
