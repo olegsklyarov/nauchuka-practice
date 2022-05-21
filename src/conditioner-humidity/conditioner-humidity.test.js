@@ -23,4 +23,4 @@ const testCases = [
     output: 'on',
   },
 ];
-tester(testCases, conditionerHumidity, 'Conditioner Humidity');
+tester(testCases, conditionerHumidity, 'Conditioner Humidity', true);
