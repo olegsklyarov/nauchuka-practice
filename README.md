@@ -48,3 +48,4 @@ $ npm run lint
 1. [Max Of Two](src/max-of-two/index.md)
 1. [Coach](src/coach/index.md)
 1. [Conditioner](src/conditioner/index.md)
+1. [Conditioner Humidity](src/conditioner-humidity/index.md)
