@@ -39,4 +39,4 @@ const testCases = [
     output: 'first',
   },
 ];
-tester(testCases, coach, 'Coach');
+tester(testCases, coach, 'Coach', true);
