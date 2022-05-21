@@ -46,3 +46,4 @@ $ npm run lint
 1. [Merge](src/merge/index.md)
 1. [Quadratic Equation](src/quadratic-equation/index.md)
 1. [Max Of Two](src/max-of-two/index.md)
+1. [Coach](src/coach/index.md)
