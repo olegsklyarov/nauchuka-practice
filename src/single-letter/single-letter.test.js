@@ -38,4 +38,4 @@ const testCases = [
     output: undefined,
   },
 ];
-tester(testCases, singleLetter, 'SingleLetter');
+tester(testCases, singleLetter, 'SingleLetter', true);

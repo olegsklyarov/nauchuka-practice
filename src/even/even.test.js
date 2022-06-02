@@ -19,4 +19,4 @@ const testCases = [
     output: 9,
   },
 ];
-tester(testCases, even, 'Even');
+tester(testCases, even, 'Even', true);

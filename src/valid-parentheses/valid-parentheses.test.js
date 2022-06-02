@@ -43,4 +43,4 @@ const testCases = [
     output: true,
   },
 ];
-tester(testCases, validParentheses, 'validParentheses');
+tester(testCases, validParentheses, 'validParentheses', true);
