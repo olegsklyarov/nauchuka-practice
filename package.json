@@ -6,7 +6,7 @@
     "lint": "eslint src",
     "lint-fix": "eslint src --fix",
     "test": "mocha --reporter dot src/**/*.test.js",
-    "generate-new-task": "node src/util/generate-new-task.js $1"
+    "generate-new-task": "node src/util/generate-new-task/index.js $1"
   },
   "keywords": [
     "javascript",
