@@ -1,4 +1,8 @@
-const generateIndexMd = (taskName) => `# ${taskName}
+import { toTitleCase } from './case-convert.js';
+
+export default function (taskName) {
+  const title = toTitleCase(taskName);
+  return `# ${title}
 
 TODO Insert task description here
 
@@ -12,5 +16,4 @@ TODO Insert task description here
 |-----------------|-----------------|
 |                 |                 |
 `;
-
-export default generateIndexMd;
+}
