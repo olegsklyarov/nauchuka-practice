@@ -34,4 +34,4 @@ const testCases = [
     },
   },
 ];
-tester(testCases, actors, 'Actors');
+tester(testCases, actors, 'Actors', true);
