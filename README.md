@@ -50,3 +50,4 @@ $ npm run lint
 1. [Coach](src/coach/index.md)
 1. [Conditioner](src/conditioner/index.md)
 1. [Conditioner Humidity](src/conditioner-humidity/index.md)
+1. [Actors](src/actors/index.md)

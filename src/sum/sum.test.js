@@ -20,4 +20,4 @@ const testCases = [
   },
 ];
 
-tester(testCases, sum, 'Sum');
+tester(testCases, sum, 'Sum', true);
